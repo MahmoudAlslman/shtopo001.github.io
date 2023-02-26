@@ -1,0 +1,41 @@
+
+
+.wrapper {
+  width: 200%;
+  height: 4rem;
+  position: absolute;
+  left: 100%;
+  top: 33px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #2e6db4 0%, #e7f0fd 100%);
+  overflow: hidden;
+  z-index: 20;
+}
+
+.wave {
+    width: 1575px;
+    height: 1744px;
+    position: inherit;
+    top: 74%;
+    left: -17%;
+    margin-left: 33px;
+    margin-top: -1689px;
+    border-radius: 35%;
+    background: rgba(213, 232, 236, 0.336);
+    animation: wave 15s infinite cubic-bezier(0.22, 0.61, 0.36, 1);
+    z-index: 20;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+
+.heroBackgraound{
+    background-image: url(/LogoBg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
